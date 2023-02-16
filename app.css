@@ -1,0 +1,86 @@
+html {
+     background-color:rgb(40, 40, 40);
+}
+
+body, h1 {
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+#jeopardy {
+     border: grey solid 1px;
+     color: aliceblue;
+     background-color: #060ce9;
+     border: rgb(40, 40, 40) solid 1px;
+     margin-top: 4px;
+     border-spacing: 0;
+}
+
+td {
+     text-align: center;
+     width: 180px;
+     height: 130px;
+     border: #00a2ff;
+     font-size: 18px;
+     border: solid black 3px;
+     padding: 0;
+     text-shadow: black 0.5px 0.5px 3px;
+     color: yellow;
+}
+
+td:hover {
+     cursor: pointer;
+     border: solid #28a200 3px;
+}
+
+th {
+     background-color: #060ce9;
+     font-size: 20px;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-transform: uppercase;
+     padding: 5px;
+     height: 70px;
+     border: 3mm ridge #008afc;
+     
+}
+
+#title {
+     color: rgb(30, 30, 30);
+     text-shadow: #00a2ff 0 0 3.5px;
+     font-size: 23px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+     text-decoration: underline;
+     text-decoration-thickness: 2.5px;
+     text-underline-offset: 5px;
+     margin-left: 36vw;
+}
+
+#restart {
+     height: 40px;
+     width: 1116px;
+     background-color: #115ff4;
+     text-shadow: aliceblue 0 0 6px;
+     border: #115ff4 solid 1px;
+     border-radius: 2%;
+     font-size: large;
+}
+#restart:hover {
+     background-color: #060ce9;
+     text-shadow: aliceblue 0 0 4px;
+     border: #28a200 solid 1.5px;
+}
+#restart:active{
+     color: #28a200;
+     text-shadow: black 0 0 3px;
+}
+
+
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  28a200
+  #8d2ab5
+  #74119c
+*/
